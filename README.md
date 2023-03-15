@@ -1,4 +1,6 @@
-Webpack procedure 1
+# Webpack procedure 1
+
+#### The examples are based on Webpack 5
 
 - Based on [How to configure Webpack 4 or 5 from scratch for a basic website](https://dev.to/antonmelnyk/how-to-configure-webpack-from-scratch-for-a-basic-website-46a5)
 
@@ -32,7 +34,11 @@ Treat index.js as entry points for all your component scripts and styles. Use:
 
 [style loader](https://webpack.js.org/loaders/style-loader/)
 
-### Other way to build
+# Webpack Procedure 2
+
+### As a webpack project
+
+[Based on ](https://webpack.js.org/configuration/)
 
 - Install webpack-cli first(mandatory)with `npm i webpack-cli`
 - Install Webpack project by command `npx webpack init`
