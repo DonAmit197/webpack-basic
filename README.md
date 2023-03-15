@@ -31,3 +31,13 @@ Treat index.js as entry points for all your component scripts and styles. Use:
 ### Other plugins / loaders
 
 [style loader](https://webpack.js.org/loaders/style-loader/)
+
+### Other way to build
+
+- Install webpack-cli first(mandatory)with `npm i webpack-cli`
+- Install Webpack project by command `npx webpack init`
+- It will ask you some questions prompt for dependencies to include.
+- Answer accordingly and you are done
+- Say yes to the webpack dev server question
+- Install browserSync plugin if needed
+- End run `npm run build`. All set!
