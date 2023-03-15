@@ -8,3 +8,5 @@ $ npm i --save-dev webpack webpack-cli
 
 - It installs webpack with webpack cli
 - But the best step is on webpack process 2
+
+* Run the build with `npm run build`
