@@ -1,5 +1,8 @@
 const path = require("path");
+// Watch Plugin. It watches all the files other than the index.js and triggers the browserSync
+
 const WatchExternalFilesPlugin = require("webpack-watch-external-files-plugin");
+// BrowserSync plugin to reload browser
 const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
 
 module.exports = {
